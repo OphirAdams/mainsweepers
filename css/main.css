@@ -1,0 +1,78 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-image: url(../img/hell.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:rgb(34, 36, 33);
+}
+
+.game-mode{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 50px 0px;
+}
+
+.game-bar-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+.flag{
+    width: 12px;
+    height: 12px;
+}
+.mark {
+    background-color: lightblue;
+    padding:0 2px;
+}
+.shown-cell{
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-size: 10px;
+}
+.disabled-mine{
+    background-color:green;
+    width: 16px;
+    height: 16px;
+}
+.live-mine{
+    width: 16px;
+    height: 16px;
+}
+.exploded-mine{
+    background-color:crimson;
+    width: 16px;
+    height: 16px;
+}
+
+.game-board {
+    margin-left: auto;
+    margin-right: auto;
+}
+.unshown-cell{
+    border: 2px solid grey;
+    background-color: grey;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-size: 10px;
+}
+.game-bar {
+    margin-left: auto;
+    margin-right: auto;
+}
+.game-bar th{
+    border: 2px solid brown;
+    background-color: white;
+    width: 50px;
+    height: 16px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+

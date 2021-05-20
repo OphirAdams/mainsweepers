@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/main.css" >
+</head>
+
+<body background="img/hell.gif" onload="initGame()" oncontextmenu="return false" >
+    <img src="img/retro-torch.gif" height="150px" width="100px">
+    <h1> <img src="img/megarok.png" MINE SWEEPER </h1>  
+    <div class="box">
+    <table class="game-mode" >
+        <tr>
+            <td>
+                <button onclick="changeDifficulty(this)">Easy</button>
+            </td>
+            <td>
+                <button onclick="changeDifficulty(this)">Medium</button>
+            </td>
+            <td>
+                <button onclick="changeDifficulty(this)">Metal</button>
+            </td>
+        </tr>
+    </table>
+    <table class="game-bar">
+    </table>
+    <table class="game-board">
+    </table>
+    </div>
+
+    <script src="js/minesweep.js"></script>
+</body>
+
+</html>
